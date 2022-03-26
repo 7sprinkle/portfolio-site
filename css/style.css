@@ -284,59 +284,6 @@ table {
   width: 940px;
   margin: 0 auto;
 }
-/* サイドバーのレイアウト指定 */
-/* .sidebar { */
-  /* width: 200px;
-  margin: 0 10px 0 30px;
-  float: right;サイドバーを右に寄せる */
-  /* font-family: 'Bitter', serif;
-} */
-
-/* リンク画像ホバー時半透明にする */
-a img:hover {
-  opacity: 0.8;
-}
-/* サイドバー見出しの余白調整 */
-/* .sidebar h2 {
-  margin-bottom: 10px;
-} */
-/* サイドバーリストの調整 */
-/* .sidebar ul {
-  font-size: 16px;
-  margin-left: 20px;
-} */
-/* サイドバーリスト文字色指定 */
-/* .sidebar ul a {
-  color: #333333;
-} */
-
-/* フォトグラフページのスタイル指定 */
-#photograph {
-  background-image: url(../images/bg-photograph.jpg);/* 背景(メインビジュアル)画像指定 */
-  background-repeat: no-repeat;/* 画像の繰り返し解除 */
-  background-position: center top;/* 画像開始位置指定 */
-  background-attachment: fixed;/* 背景画像固定 */
-  background-size: 100% auto;/* 背景画像大きさ指定 */
-}
-
-#photograph .photograph-list li {
-  float: left;/* 画像のレイアウトを調整 */
-  list-style: none;/* 行頭・を消す */
-  margin: 0 20px 15px 0;/* 各画像間に余白を入れる */
-}
-/* ３の倍数のマージンを調整　:nth-child()　疑似クラス */
-#photograph .photograph-list li:nth-child(3n){
-  margin-right: 0;
-}
-
-/* ビデオページのスタイル指定 */
-#video {
-  background-image: url(../images/bg-video.jpg);/* 背景(メインビジュアル)画像指定 */
-  background-repeat: no-repeat;/* 画像の繰り返し解除 */
-  background-position: center top;/* 画像開始位置指定 */
-  background-attachment: fixed;/* 背景画像固定 */
-  background-size: 100% auto;/* 背景画像大きさ指定 */
-}
 
 /* お問合せページのスタイル指定 */
 #contact {
