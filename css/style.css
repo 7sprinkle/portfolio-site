@@ -140,28 +140,28 @@ footer small{
 
 /*ボタンの装飾*/
 .btn a{
-  background-color: #fff06c;
-  color: #000000;
+  background-color: #9cb4a4;
+  color: #ffffff;
   font-size: 20px;
   font-family: 'Bitter', serif;
   width: 185px;
   display: block;/* インライン要素をブロック要素として扱う*/
   text-align: center;
   line-height: 50px;
-  margin-top: 20px;
-  border-radius: 20px;
-  border: 3px solid #fff06c;
+  margin-top: 70px;
+  border-radius: 30px;
+  border: 3px solid #9cb4a4;
 }
 
 .btn a:hover{
   text-decoration: none;
   background-color: #ffffff;
-  color: #000000;
+  color: #9cb4a4;
 }
 /* footerの要素を左に寄せる */
 #index footer{
   width: 960px;
-  margin: 150px auto 0 auto;/* 上部に余白 */
+  margin: 100px auto 0 auto;/* 上部に余白 */
   text-align: left;
   background-color: transparent;/* footerエリアの背景色を透過 */
 }
