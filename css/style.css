@@ -80,8 +80,10 @@ header{
 /* id属性をセレクタにする #id名{} */
 #wrap{/*子孫セレクタ*/
   clear: both;/* floatによる左右への回り込みを解除 */
-  background-color: #ffffff;
-  margin-top: 220px;
+  /* background-color: #ffffff; */
+  background-image: url(../images/wallpaper-color.jpeg);
+  background-attachment: fixed;
+  margin-top: 110px;
   padding: 35px 0;
 }
 
@@ -95,7 +97,7 @@ footer{
   text-align: center;/*文字の中央揃え*/
   color: #ffffff;
   padding: 40px 0;/*内側上下に余白*/
-  background-color: #767671;/* 背景色を指定 */
+  background-color: #333333;/* 背景色を指定 */
   margin: 0 auto;
 }
 /* コピーライト表記フォントサイズ調整 */
@@ -127,6 +129,10 @@ footer small{
   font-family: 'Bitter', serif;
   margin-bottom: 50px;
   border: none;/* h1下の下線を削除 */
+}
+
+#index #wrap {
+  background-image: none;
 }
 
 #index .content{
@@ -187,7 +193,8 @@ footer small{
 }
 /* プロフィールページのスタイル指定 */
 #about {
-  background-image: url(../images/bg-about.jpg);/* 背景画像指定 */
+  background-color: #333333;
+  /* background-image: url(../images/bg-about.jpg);背景画像指定 */
   background-repeat: no-repeat;/* 画像の繰り返し解除 */
   background-position: center top;/* 画像開始位置指定 */
   background-attachment: fixed;/* 背景画像固定 */
@@ -196,7 +203,9 @@ footer small{
 /* メインエリアの幅を指定 */
 .main-center {
   width: 940px;
+  padding: 0 40px 20px;
   margin: 0 auto;
+  background-color:#ffffff ;
 }
 /* 大見出しのスタイル指定 */
 h1 {
@@ -270,7 +279,8 @@ table {
 
 /* ポートフォリオページのスタイル指定 */
 #portfolio {
-  background-image: url(../images/bg-portfolio.jpg);/* 背景(メインビジュアル)画像指定 */
+  background-color: #333333;
+  /* background-image: url(../images/bg-portfolio.jpg);背景(メインビジュアル)画像指定 */
   background-repeat: no-repeat;/* 画像の繰り返し解除 */
   background-position: center top;/* 画像開始位置指定 */
   background-attachment: fixed;/* 背景画像固定 */
@@ -278,16 +288,26 @@ table {
 }
 /* メインエリアのレイアウト指定 */
 .main {
-  /* width: 700px; */
-  /* margin: 0 10px; */
-  /* float: left;メインエリアを左に寄せる */
   width: 940px;
   margin: 0 auto;
+  padding: 0 40px 20px;
+  background-color:#ffffff ;
+}
+
+#portfolio .work-list li {
+  float: left;
+  list-style: none;
+  margin: 0 140px 80px 0;
+}
+
+#portfolio .work-list li:nth-child(3n) {
+  margin-right: 0;
 }
 
 /* お問合せページのスタイル指定 */
 #contact {
-  background-image: url(../images/bg-contact.jpg);/* 背景(メインビジュアル)画像指定 */
+  background-color: #333333;
+  /* background-image: url(../images/bg-contact.jpg);背景(メインビジュアル)画像指定 */
   background-repeat: no-repeat;/* 画像の繰り返し解除 */
   background-position: center top;/* 画像開始位置指定 */
   background-attachment: fixed;/* 背景画像固定 */
@@ -407,13 +427,13 @@ table {
   /* ロゴの位置を調整 */
   .logo {
     float: none;/* float解除 */
-    margin-top: 60px;
+    margin-top: 20px;
     text-align: center;/* 中央揃え */
   }
   /* ナビの位置を調整 */
   .global-nav {
     float: none;/* float解除 */
-    margin-top: 40px;
+    margin: 10px 0 20px 0;
     text-align: center;/* 中央揃え */
   }
 
